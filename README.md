@@ -4,7 +4,7 @@ A website that displays ,well, dad jokes.
 
 * What I learnt:
   * Handling APIs 
-  * Utilisng fetch requests
+  * Utilisng the fetch API
   * JavaScript promises
   * Javascript async and await
 
