@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
+.light {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,6 +12,22 @@ body {
     background-color: azure;
 }
 
+.dark {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.theme-btn {
+    border: 0;
+    border-radius: 10px;
+    background-color: chartreuse;
+    padding: 14px 40px;
+    font-family: consolas;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
 .container {
     padding: 20px 50px;
     border-radius: 10px;
@@ -49,3 +65,4 @@ h3 {
 .btn:focus {
     opacity: 0.8;
 }
+
