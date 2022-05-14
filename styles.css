@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+#logo {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    padding-left: 10px;
+    background: transparent;
+}
+
 .light {
     height: 100vh;
     display: flex;
@@ -24,8 +34,8 @@
     padding: 14px 40px;
     font-family: consolas;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    right: 10px;
     cursor: pointer;
 }
 .container {

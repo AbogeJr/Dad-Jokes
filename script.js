@@ -2,7 +2,7 @@ const jokeEl = document.getElementById('joke')
 const jokeBtn = document.getElementById('jokeBtn')
 const themeBtn = document.getElementById('theme-btn')
 const body = document.getElementById('body')
-
+var logo = document.getElementById('logo')
 // body.classList.add('dark')
 
 jokeBtn.addEventListener('click', generateJoke)
@@ -27,9 +27,11 @@ themeBtn.addEventListener('click', function() {
     if(themeBtn.value=="off") {
         themeBtn.innerHTML = "Light"
         themeBtn.value="on"
+        logo.setAttribute('src', 'logo-dark.png')
     }
     else {
         themeBtn.innerHTML = "Dark"
-        themeBtn.value="off" 
+        themeBtn.value="off"
+        logo.setAttribute('src', 'logo.png') 
     }
 }, true )
