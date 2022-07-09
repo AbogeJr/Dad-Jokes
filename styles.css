@@ -7,7 +7,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100px;
+    height: 75px;
     padding-left: 10px;
     background: transparent;
 }
@@ -23,7 +23,7 @@
 }
 
 .dark {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(10, 10, 10);
     color: white;
 }
 
@@ -38,11 +38,17 @@
     right: 10px;
     cursor: pointer;
 }
+.dark .theme-btn{
+    background-color: red;
+}
 .container {
     padding: 20px 50px;
     border-radius: 10px;
     border: 1px solid chartreuse;
     text-align: center;
+}
+.dark .container{
+    border: 1px solid red;
 }
 
 h3 {
@@ -68,6 +74,10 @@ h3 {
     font-size: 16px;
     transition: 300ms;
     cursor: pointer;
+}
+.dark .btn {
+    background-color: red;
+    /* color: red; */
 }
 .btn:active {
     transform: scale(0.95);
